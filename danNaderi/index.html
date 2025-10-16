@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patina Dan NADERI</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- دکمه تغییر زبان -->
+  <button id="lang-toggle">English 🇬🇧</button>
+
+  <header>
+    <div class="logo">Patina Dan NADERI</div>
+    <nav>
+      <ul>
+        <li data-translate="home">الرئيسية</li>
+        <li data-translate="gallery">المعرض</li>
+        <li data-translate="about">من نحن</li>
+        <li data-translate="contact">تواصل معنا</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Canvas Effect -->
+  <canvas id="js-cursor-effect"></canvas>
+
+<section class="hero">
+  <div class="hero-left">
+    <img src="images/WhatsApp Image 2025-10-16 at 14.48.08_49bd2017.jpg" alt="Model">
+    <div class="hero-info">
+      <h3>DAN NADERI</h3>
+      <p>Instagram: @patina_bassam | 050-123-4567</p>
+    </div>
+  </div>
+  <div class="hero-right">
+    <h1 data-translate="hero_title">فن الباتينا بأسلوب عصري وأنيق</h1>
+    <p data-translate="hero_subtitle">نقدم أجمل تصاميم الجدران بتقنيات الباتينا الفريدة.</p>
+  </div>
+</section>
+
+
+
+  <section class="gallery">
+    <div class="banner">
+            <div class="slider" style="--quantity: 10">
+                <div class="item" style="--position: 1"><img src="images/banner/banner1.jpg" alt=""></div>
+                <div class="item" style="--position: 2"><img src="images/banner/banner2.jpg" alt=""></div>
+                <div class="item" style="--position: 3"><img src="images/banner/banner3.jpg" alt=""></div>
+                <div class="item" style="--position: 4"><img src="images/banner/banner4.jpg" alt=""></div>
+                <div class="item" style="--position: 5"><img src="images/banner/banner5.jpg" alt=""></div>
+                <div class="item" style="--position: 6"><img src="images/banner/banner6.jpg" alt=""></div>
+                <div class="item" style="--position: 7"><img src="images/banner/banner7.jpg" alt=""></div>
+                <div class="item" style="--position: 8"><img src="images/banner/banner8.jpg" alt=""></div>
+                <div class="item" style="--position: 9"><img src="images/banner/banner9.jpg" alt=""></div>
+                <div class="item" style="--position: 10"><img src="images/banner/banner10.jpg" alt=""></div>
+            </div>
+            <div class="model"></div>
+        </div>
+  </section>
+
+<section class="about">
+  <h2 data-translate="about_title">عن باتينا دن نادری</h2>
+  <p data-translate="about_text">
+    نحن متخصصون في فن الباتينا، ندمج الأصالة مع اللمسات العصرية لنقدم لكم تصاميم فريدة من نوعها تناسب الذوق الرفيع.
+  </p>
+
+  <div class="about-cards">
+    <a href="artworks.html" class="about-card">
+      <img src="images/1jpg.jpg" alt="تابلوهای هنری">
+      <h3 data-translate = "service_walls">تصاميم جدران</h3>
+    </a>
+    <a href="wall-design.html" class="about-card">
+      <img src="images/2.jpg" alt="دیزاین دیوار">
+      <h3 data-translate = "service_boaeds">ألواح فنية</h3>
+    </a>
+  </div>
+</section>
+
+
+  <footer>
+    <p data-translate="contact_info">للتواصل: 050-123-4567 | Instagram: @patina_bassam</p>
+  </footer>
+
+  <script src="src/script.js"></script>
+  <script src="src/effects.js"></script>
+</body>
+</html>
