@@ -423,3 +423,28 @@ footer {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     font-weight: 400;
 }
+
+@media (max-width: 880px) {
+    .banner .slider {
+        width: 110px;
+        height: 120px;
+        top: 20%;
+        left: calc(50% - 90px);
+    }   
+    .banner .slider .item {
+    position: absolute;
+    inset: 0;
+    transform: rotateY(calc((var(--position)) * (360 / var(--quantity)) * 1deg)) translateZ(240px);
+}
+
+}
+@media (max-width: 440px){
+    
+.hero-right h1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.about p {
+    font-size: .7rem;
+}
+}
