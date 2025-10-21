@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styleWall.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <canvas id="js-cursor-effect"></canvas>
+
+  <!-- Cards container -->
+  <div class="cards">
+    <!-- Card 1 -->
+    <article class="card" data-project-id="work-01">
+      <header class="card__head">
+        <h2 class="card__title">Project Title</h2>
+        <span class="card__meta">Code: WK-01</span>
+      </header>
+
+        <!-- جای اسلایدر -->
+      <div class="card__slider" id="slider-work-01">
+        <!-- در مرحله بعد ساختار اسلایدر رو اینجا می‌گذاریم -->
+      </div>
+    </article>
+    <!-- Card 2 -->
+    <article class="card" data-project-id="work-02">
+      <header class="card__head">
+        <h2 class="card__title">Project Title</h2>
+        <span class="card__meta">Code: WK-02</span>
+      </header>
+
+        <!-- جای اسلایدر -->
+      <div class="card__slider" id="slider-work-02">
+        <!-- در مرحله بعد ساختار اسلایدر رو اینجا می‌گذاریم -->
+      </div>
+    </article>
+    <!-- Card 3 -->
+    <article class="card" data-project-id="work-03">
+      <header class="card__head">
+        <h2 class="card__title">Project Title</h2>
+        <span class="card__meta">Code: WK-03</span>
+      </header>
+
+        <!-- جای اسلایدر -->
+      <div class="card__slider" id="slider-work-03">
+        <!-- در مرحله بعد ساختار اسلایدر رو اینجا می‌گذاریم -->
+      </div>
+    </article>
+
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="wallModal">
+    <div class="modal__overlay"></div>
+    <div class="modal__content">
+      <button class="modal__close" aria-label="Close">&times;</button>
+      <div class="modal__body">
+        <!-- محتوا در زمان کلیک به‌صورت داینامیک پر می‌شود -->
+      </div>
+    </div>
+  </div>
+
+
+  <script src="src/jsWall.js"></script>
+    <script src="src/effects.js"></script>
+</body>
+</html>
