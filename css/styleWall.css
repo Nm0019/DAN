@@ -114,7 +114,7 @@ body {
 .fs-slide img {
   display: block;
   width: 100%;
-  height:70vh;
+  height:60vh;
   object-fit: contain;
   border-radius: 12px;
    background: #000;
@@ -340,5 +340,6 @@ body {
   width: 6px;
 
 }
+
 
 
