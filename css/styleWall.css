@@ -114,9 +114,12 @@ body {
 .fs-slide img {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height:74vh;
+  object-fit: contain;
   border-radius: 12px;
+   background: #000;
+  aspect-ratio: 4 / 3; /* نسبت ثابت برای همه عکس‌ها */
+  overflow: hidden;
 }
 
 .fs-slide + .fs-slide {
@@ -337,3 +340,4 @@ body {
   width: 6px;
 
 }
+
